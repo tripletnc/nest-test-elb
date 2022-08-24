@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getMovies(): Movie[] {
-    return this.appService.getMovies();
+  getENV() {
+    return this.appService.getENV();
   }
 }
