@@ -8,7 +8,6 @@ import { config } from './config';
   imports: [
     ConfigModule.forRoot({
       ignoreEnvFile: true,
-      envFilePath: '.env',
       isGlobal: true,
       load: [config],
     }),
